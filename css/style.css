@@ -8,8 +8,8 @@ body {
     background-size: cover;
     background-position: center;
     color: white;
-    -ms-overflow-style: none;  
-    scrollbar-width: none;  
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 body::-webkit-scrollbar {
@@ -46,7 +46,9 @@ header>button:hover {
     cursor: pointer;
 }
 
-header>h1,h2,h3 {
+header>h1,
+h2,
+h3 {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: xx-large;
@@ -54,24 +56,30 @@ header>h1,h2,h3 {
 
 #navbar {
     margin: 0;
-    min-height: 100%;
     background-color: rgb(37, 37, 37);
     left: 0;
     top: 0;
-    height: 825px;
     width: 300px;
     position: absolute;
+    min-height: 842px;
+    height: auto !important;
+    height: 842px;
 }
 
-@keyframes navbar_slide{
-    from {left:-300px;}
-    to {left: 0;}
+/* @keyframes navbar_slide {
+    from {
+        left: -300px;
+    }
+
+    to {
+        left: 0;
+    }
 }
 
 #navbar:displayed {
     animation-name: navbar_slide;
     animation-duration: 1s;
-}
+} */
 
 #menu_head {
     float: left;
@@ -149,7 +157,7 @@ header>h1,h2,h3 {
 }
 
 img {
-    max-width: 80%;
+    max-width: 50%;
 }
 
 #split {
@@ -166,7 +174,7 @@ img {
 }
 
 #selfie {
-    width: 30%;
+    width: 22%;
     float: right;
     display: block;
     margin: 0;
