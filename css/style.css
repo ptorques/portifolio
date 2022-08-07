@@ -86,6 +86,7 @@ h3 {
     background: none;
     display: block;
     margin: auto;
+    border: none;
 }
 
 .title {
@@ -146,4 +147,8 @@ a {
     text-decoration: none;
     color: white;
     display: block;
+}
+
+button {
+    border: none;
 }
