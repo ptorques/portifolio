@@ -53,6 +53,7 @@ html::-webkit-scrollbar-thumb {
     display: block;
     width: 30%;
     margin: auto;
+    margin-top: 1rem;
 }
 
 #greet_text {
