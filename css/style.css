@@ -190,12 +190,26 @@ h3 {
     background-color: black;
 }
 
-.embedSA {
-    height: 40vw; 
+.embedContainer {
     width: 80vw;
     border: 2px solid white;
-    margin: 2rem;
     border-radius: 7px;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.embedSA {
+    height: 40vw; 
+    width: 100%;
+    border-radius: 7px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.embedText {
+    margin: 1rem;
+    margin-top: 0.4rem;
 }
 
 ul {
